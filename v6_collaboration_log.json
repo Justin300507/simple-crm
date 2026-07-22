@@ -1,0 +1,50 @@
+{
+  "decisions": [
+    {
+      "agent": "product_manager",
+      "decision": "product_spec_created",
+      "rationale": "A straightforward CRM for small businesses to manage contacts, track interactions, and visualize their sales pipeline.",
+      "data": {
+        "features": 6,
+        "user_stories": 6,
+        "must_have": [
+          "User Authentication",
+          "Contact Management",
+          "Contact Notes",
+          "Interaction Logging",
+          "Pipeline View",
+          "Contact Search"
+        ]
+      }
+    },
+    {
+      "agent": "architect",
+      "decision": "architecture_created",
+      "rationale": "15 endpoints across 5 files",
+      "data": {
+        "endpoints": 15
+      }
+    },
+    {
+      "agent": "tech_lead",
+      "decision": "constraints_set",
+      "rationale": "The proposed architecture for Simple CRM is largely sound and adheres to most project contract requirements. Key areas for improvement include ensurin",
+      "data": {
+        "critical_issues": 0,
+        "auth_endpoints": 11,
+        "pagination_required": 3
+      }
+    },
+    {
+      "agent": "orchestrator",
+      "decision": "pipeline_complete",
+      "rationale": "V6 score: 57/100",
+      "data": {
+        "total_time": 21.96,
+        "can_export": false
+      }
+    }
+  ],
+  "conflicts": [],
+  "shared_context_keys": []
+}
